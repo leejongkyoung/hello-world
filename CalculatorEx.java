@@ -22,21 +22,6 @@ public class CalculatorEx {
 		//2이면 operationInput();
 		//3이면 cal.calcuResult();
 		//4이면 cal.exit();
-
-		if(menuNumber==1) {
-			cal.numberInput();
-		}
-		else if(menuNumber==2) {
-			cal.operationInput();
-		}
-		else if(menuNumber==3) {
-				cal.calcuResult();
-		}
-		else if(menuNumber==4) {
-				cal.exit();
-		}
-		else {
-			System.out.println("번호가 틀렸습니다.");
 		}
 		
 	  }//while끝
